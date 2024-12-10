@@ -1,91 +1,113 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "SolveXia",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png",
+    "href": "https://www.solvexia.com/"
   },
-  "favicon": "/favicon.svg",
+  "background": {
+    "style": "gradient"
+  },
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#003091",
+    "light": "#003091",
+    "dark": "#003091",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#003091",
+      "to": "#003091"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  },
+  "font":{
+    "headings": {
+      "family": "Ubuntu",
+      "url": "https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCxCvjsGyN.woff2",
+      "format": "woff2",
+      "weight": 700
     }
-  ],
+  },
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Request Demo",
+    "url": "https://www.solvexia.com/request-demo",
+    "arrow": false,
+    "style": "roundedRectangle"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "SolveXia Account",
+      "url": "hc/en-us/categories/account"
+    },
+    {
+      "name": "Designer",
+      "url": "hc/en-us/categories/designer/"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://www.solvexia.com/blog"
+    },
+    {
+      "name": "FAQ",
+      "icon": "circle-question",
+      "url": "https://www.solvexia.com/faq"
+    },
+    {
+      "name": "Contact Us",
+      "icon": "headset",
+      "url": "https://www.solvexia.com/contact"
     }
+
   ],
+  "primaryTab": {
+    "name": "Home"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Home",
+      "pages": ["home"]
+    },
+    {
+      "group": "Security",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "hc/en-us/categories/account/articles/11029754505743-Security",
+        "hc/en-us/categories/account/articles/4413577267983-Set-Up-Mutli-Factor-Authentication",
+        "hc/en-us/categories/account/articles/360003077996-Change-password",
+        "hc/en-us/categories/account/articles/360001114956-Reset-password"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Profile management",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "hc/en-us/categories/account/articles/360000919335-Profile-management",
+        "hc/en-us/categories/account/articles/11029849070479-Change-account-details"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Getting Started",
       "pages": [
-        "api-reference/introduction"
+        "hc/en-us/categories/designer/articles/360000215015-Getting-Started",
+        "hc/en-us/categories/designer/articles/360001078716-First-Time-Tutorial",
+        "hc/en-us/categories/designer/articles/360004217396-Setting-up-an-account-for-help-articles"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Managed Tables",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "hc/en-us/categories/designer/articles/360000207816-Managed-Tables",
+        "hc/en-us/categories/designer/articles/4403671340047-Video-Tutorial-Getting-Started-with-Managed-Tables"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://twitter.com/solvexia",
+    "facebook": "https://www.facebook.com/solvexia/",
+    "linkedin": "https://au.linkedin.com/company/solvexia-automation"
   }
 }
